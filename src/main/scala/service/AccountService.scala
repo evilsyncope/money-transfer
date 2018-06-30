@@ -1,7 +1,5 @@
 package service
 
-import java.time.Instant
-
 import com.twitter.util.Time
 import db.Database
 import domain._
