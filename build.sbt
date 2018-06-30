@@ -37,6 +37,8 @@ assemblyMergeStrategy in assembly := {
     case _ => MergeStrategy.first
 }
 
+// parallel causes problems with cleaning up the state
+parallelExecution in Test := false
 
 scalacOptions += "-deprecation"
 
